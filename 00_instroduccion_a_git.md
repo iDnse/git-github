@@ -116,3 +116,5 @@
 ## Alias
   se crea un areas de un comando declarado.
   git config alias.tree "git log --graph --decorate --all --oneline"
+## Git ignore
+  Sacar un archivo que no queremos que este en nuestro git
