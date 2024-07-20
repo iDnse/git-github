@@ -103,5 +103,6 @@
   - git add . , con el punto inicamos todos los archivos en el directorio, si lo queremos hacer individual colocariamos el nombre del archivo junto con su extension.
 
   - git commit -m "" , sube del staged al commit , es decir pasar ya a la base de datos.
-## 
-
+## check out y reset
+  - git checkout , es situarnos a un punto completo, puedes ir a una modificacion anterior
+  
