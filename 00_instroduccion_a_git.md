@@ -10,6 +10,8 @@
 
   En caso de perdida se puede es facil y sencillo recuperarlo
 
+  Es de codigo abierto.
+
 ## Sistema de control de versiones
 
   1. Locales, la base de datos o de registro estan en local
@@ -61,3 +63,43 @@
   - Seguridad
   
   - Flexibilidad
+
+## Git se maneja a traves de la line de comando (terminal):
+  - ls , listar archivos.
+  - cd , movernos por los directorios.
+  - cd .. , me muevo a un directorio anterior.
+  - pwd , en que lugar estoy , muestra la ruta absoluta.
+  - mkadir , para crear directorio.
+  - touch , crear archivo.
+  - clear, limipiar la consola.
+
+## Configuracion de git.
+
+  Todo lo que hagamos tiene que estar asociado ha alguien. Por ello vamos a configurar el nombre de usuario y nombre de email
+
+  - git config --global user.name , modifica el nombre de usuario
+  - git config --global user.email, modifica el email de usuario
+
+  Cada accion que hagas una vez iniciado el git, tu nombre y email aparecera asociado
+
+## Inicio Git
+  - git init , donde estes inicia el control de versiones.
+
+  Crea una carpeta de extencion .git y adicional crea la primera rama es master , pendiente de cambiar el nombre de la rama para coocordar con la de github o al git remoto. Ojo antes se usaba master , ahora se llama main.
+
+## Ramas o brach de git
+
+  Son ramas del proyecto , comenzamos con la principal y depues podemos añadir, modificar, renombrar o borrar, son diferente areas de trabajo donde uno no afecta al otro hasta que hace un fecth o merge es decir que se una.
+
+- git branch -m main , renombra la rama donde estes posicionado.
+
+## Status
+
+  - git status , muestra como estan los archivos, modificados en staged o ya committed.
+
+# Add y commit
+  Si lo que queeremos sacar la primera fotografia del git primero tenemos que pasarla staged, para hacerlo usamos:
+
+  - git add . , con el punto inicamos todos los archivos en el directorio, si lo queremos hacer individual colocariamos el nombre del archivo junto con su extension
+
+
