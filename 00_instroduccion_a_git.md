@@ -107,3 +107,9 @@
   - git checkout , es situarnos a un punto completo, puedes ir a una modificacion anterior
   - git reset , nuevo
 
+## git log
+  Revisa el historial de los commit con su codigo de historia y comentario ademas de detalles como la fecha del commit o quien lo hizo
+  - git log ,lista con solo los que quepan en la pantalla del terminal
+  - git log --graph , muestra de manera mas grafica
+  - git log --graph --pretty=oneline , mas corto y todos los commit en una sola linea por commit
+  - git log --graph --decorate --all --oneline, mas simple a la vista
