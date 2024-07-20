@@ -97,9 +97,11 @@
 
   - git status , muestra como estan los archivos, modificados en staged o ya committed.
 
-# Add y commit
+## Add y commit
   Si lo que queeremos sacar la primera fotografia del git primero tenemos que pasarla staged, para hacerlo usamos:
 
-  - git add . , con el punto inicamos todos los archivos en el directorio, si lo queremos hacer individual colocariamos el nombre del archivo junto con su extension
+  - git add . , con el punto inicamos todos los archivos en el directorio, si lo queremos hacer individual colocariamos el nombre del archivo junto con su extension.
 
+  - git commit -m "" , sube del staged al commit , es decir pasar ya a la base de datos.
+## 
 
