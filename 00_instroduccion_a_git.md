@@ -65,6 +65,7 @@
   - Flexibilidad
 
 ## Git se maneja a traves de la line de comando (terminal):
+
   - ls , listar archivos.
   - cd , movernos por los directorios.
   - cd .. , me muevo a un directorio anterior.
@@ -83,6 +84,7 @@
   Cada accion que hagas una vez iniciado el git, tu nombre y email aparecera asociado
 
 ## Inicio Git
+
   - git init , donde estes inicia el control de versiones.
 
   Crea una carpeta de extencion .git y adicional crea la primera rama es master , pendiente de cambiar el nombre de la rama para coocordar con la de github o al git remoto. Ojo antes se usaba master , ahora se llama main.
@@ -98,23 +100,52 @@
   - git status , muestra como estan los archivos, modificados en staged o ya committed.
 
 ## Add y commit
+
   Si lo que queeremos sacar la primera fotografia del git primero tenemos que pasarla staged, para hacerlo usamos:
 
   - git add . , con el punto inicamos todos los archivos en el directorio, si lo queremos hacer individual colocariamos el nombre del archivo junto con su extension.
 
   - git commit -m "" , sube del staged al commit , es decir pasar ya a la base de datos.
+
 ## check out y reset
+
   - git checkout , es situarnos a un punto completo, puedes ir a una modificacion anterior
   - git reset , refresa las modificaciones antes del staged , cuidado puede devolver commits.
 
 ## git log
+
   Revisa el historial de los commit con su codigo de historia y comentario ademas de detalles como la fecha del commit o quien lo hizo
   - git log ,lista con solo los que quepan en la pantalla del terminal
   - git log --graph , muestra de manera mas grafica
   - git log --graph --pretty=oneline , mas corto y todos los commit en una sola linea por commit
   - git log --graph --decorate --all --oneline, mas simple a la vista
+
 ## Alias
+
   se crea un areas de un comando declarado.
   git config alias.tree "git log --graph --decorate --all --oneline"
+
 ## Git ignore
+
   Sacar un archivo que no queremos que este en nuestro git
+  - Se agrega un archivo sin nombre pero con extension de .gitignore y se agrega **/ junto con el nombre del archico que se quiera ignorar
+
+## Diff
+
+  Comprar las versiones de commit o ramas
+  - git diff
+
+## reset hard y reflog
+
+  En reset tambien no podemos mover en id de commit y regresar a un estado anterior , pero ciuando hago reset hard borro los commit en el log , git los sigue guardando pero en el log no van aparecer :
+
+  - git reset --hard a88d0bb
+
+  El reflog para referenciar a las lineas id que estan guardadas en el git pero que no se ven en el log.
+
+  - git reflog
+
+## TAG
+
+  Etiquetas, hace referencia a algo, en el git se coloca en commit, son lo referente a las versiones
+  -git tag Introducciom
