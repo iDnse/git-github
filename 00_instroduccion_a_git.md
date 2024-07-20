@@ -113,3 +113,6 @@
   - git log --graph , muestra de manera mas grafica
   - git log --graph --pretty=oneline , mas corto y todos los commit en una sola linea por commit
   - git log --graph --decorate --all --oneline, mas simple a la vista
+## Alias
+  se crea un areas de un comando declarado.
+  git config alias.tree "git log --graph --decorate --all --oneline"
