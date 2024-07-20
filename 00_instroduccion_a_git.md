@@ -105,4 +105,5 @@
   - git commit -m "" , sube del staged al commit , es decir pasar ya a la base de datos.
 ## check out y reset
   - git checkout , es situarnos a un punto completo, puedes ir a una modificacion anterior
-  
+  - git reset , nuevo
+
