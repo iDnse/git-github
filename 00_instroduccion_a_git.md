@@ -148,4 +148,13 @@
 ## TAG
 
   Etiquetas, hace referencia a algo, en el git se coloca en commit, son lo referente a las versiones
-  -git tag Introducciom
+  -git tag ""
+
+## Branch y switch
+
+  Se trabaja en la rama main que es la principal, pero se puede trabajar el mismo proyecto en varias ramas y despues unirlas a la principal.
+
+  - git branch , crea una rama adicional , se tiene que colocar nombre a la nueva rama si nom  solo se muestra las ramas disponibles.
+
+  
+
