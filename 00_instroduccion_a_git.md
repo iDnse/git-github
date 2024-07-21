@@ -157,5 +157,19 @@
   - git branch , crea una rama adicional , se tiene que colocar nombre a la nueva rama si nom  solo se muestra las ramas disponibles.
 
   - git switch , se usa para cambiar de rama a rama colocando el nombre despues del switch.
-  
 
+## Merge 
+
+  Donde estemos llamamos la palabra reservada merge para traer una rama a otra.
+
+  - git merge , de donde estmos trae a la ramma que tengamos nombrandola con todas sus modificaciones.
+  google
+
+## Show
+  Muestra la ultima modificacion que se le hizo al archivo.
+  - git show 
+
+## ls-files
+  muy parecido al ls en la terminal.
+  - git ls-files , lista los archivos que git a guardado en la base de datos ya comitiados.
+  
