@@ -156,5 +156,6 @@
 
   - git branch , crea una rama adicional , se tiene que colocar nombre a la nueva rama si nom  solo se muestra las ramas disponibles.
 
+  - git switch , se usa para cambiar de rama a rama colocando el nombre despues del switch.
   
 
