@@ -202,4 +202,7 @@
   - git fetch , muestra los cambios en el historial
   - git pull , trae los cambios hecho en remoto y los trae a local
   Error al traerlo pide que le haga commit para tenerlo en local
-## Fork 
+## Fork y clone
+  - git clone, permite clonar el repositorio que tienes en tu cuenta y poder hacer modificaciones para subir
+  - git fork, permite enviar el repositorio de alguien mas al tuyo directamente para poder clonarlo y trabajar en el
+
