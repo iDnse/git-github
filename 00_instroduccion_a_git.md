@@ -187,3 +187,8 @@
 ## Borrar branch
 
   - git branch -d , borrar rama , se coloca en nombre de la rama al final.
+
+## Emparejar el git remote a git local
+
+  - git remote add origin , al final se coloca el link que aparece en el repositorio que se creo en github.
+  
