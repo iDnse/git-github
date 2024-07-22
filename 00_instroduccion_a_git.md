@@ -204,5 +204,4 @@
   Error al traerlo pide que le haga commit para tenerlo en local
 ## Fork y clone
   - git clone, permite clonar el repositorio que tienes en tu cuenta y poder hacer modificaciones para subir
-  - git fork, permite enviar el repositorio de alguien mas al tuyo directamente para poder clonarlo y trabajar en el
-
+  fork, permite enviar el repositorio de alguien mas al tuyo directamente para poder clonarlo y trabajar en el.
