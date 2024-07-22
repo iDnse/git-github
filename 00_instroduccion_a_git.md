@@ -172,4 +172,9 @@
 ## ls-files
   muy parecido al ls en la terminal.
   - git ls-files , lista los archivos que git a guardado en la base de datos ya comitiados.
-  
+## Stash
+
+  - git stash , permiter hacer un comit temporal que no queda registrado en la rama
+  - git stash list ,muestra el commit temporal.
+  - git stash pop , entrar en el stash
+  - git stash drop , borrar el stash.
