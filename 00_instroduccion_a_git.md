@@ -195,3 +195,5 @@
 ## Push 
   Subir lo que tienes en local al remote qgithub, con el nombre origin de nuestra rama principal
   --git push origin main
+  Ver imagen 23-24 error solucionado de subir a github
+
