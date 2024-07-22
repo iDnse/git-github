@@ -197,3 +197,6 @@
   --git push origin main
   Ver imagen 23-24 error solucionado de subir a github
 
+## Fecth y Pull
+  el fech lo que hace es consultar los cambios en el github sin cambiar.
+  - git fetch
