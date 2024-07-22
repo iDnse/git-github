@@ -191,4 +191,7 @@
 ## Emparejar el git remote a git local
 
   - git remote add origin , al final se coloca el link que aparece en el repositorio que se creo en github.
-  
+
+## Push 
+  Subir lo que tienes en local al remote qgithub, con el nombre origin de nuestra rama principal
+  --git push origin main
