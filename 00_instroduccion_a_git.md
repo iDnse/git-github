@@ -202,3 +202,4 @@
   - git fetch , muestra los cambios en el historial
   - git pull , trae los cambios hecho en remoto y los trae a local
   Error al traerlo pide que le haga commit para tenerlo en local
+## Fork 
