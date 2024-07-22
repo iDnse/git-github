@@ -166,15 +166,24 @@
   google
 
 ## Show
+
   Muestra la ultima modificacion que se le hizo al archivo.
   - git show 
 
 ## ls-files
+
   muy parecido al ls en la terminal.
   - git ls-files , lista los archivos que git a guardado en la base de datos ya comitiados.
+
 ## Stash
+
+  Commit temporal , si cambias una rama a otra y no has hecho commit puedes perder lo que hallas hecho , por eso se puede hacer un commit temporal que no afecta al commit principal.
 
   - git stash , permiter hacer un comit temporal que no queda registrado en la rama
   - git stash list ,muestra el commit temporal.
   - git stash pop , entrar en el stash
   - git stash drop , borrar el stash.
+
+## Borrar branch
+
+  - git branch -d , borrar rama , se coloca en nombre de la rama al final.
